@@ -1,0 +1,8 @@
+*workspace
+artifacts/
+*/public
+*.tgz
+*.tar.gz
+zola
+.vscode/
+.python-version

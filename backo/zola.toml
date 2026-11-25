@@ -1,0 +1,71 @@
+base_url = "https://backo.io"
+title = "Backo"
+description = "Project notes and documentation."
+default_language = "en"
+theme = "devlab-theme"
+compile_sass = true
+build_search_index = true
+generate_feeds = false
+
+[extra.devlab.brand]
+logo_text = "Backo"
+footer_text = "Backo"
+show_logo_mark = true
+logo_mark_path = ""
+
+[extra.devlab.announcement]
+show = true
+key = "0.4.1"
+label = "0.4.1"
+message = "New backo version available"
+path = "@/documentation/_index.md"
+dismissible = true
+
+[markdown.highlighting]
+light_theme = "github-light-high-contrast"
+dark_theme = "github-dark-high-contrast"
+
+[extra.devlab.collections.community]
+section = "community/_index.md"
+
+[extra.devlab.collections.examples]
+section = "examples/_index.md"
+
+[extra.devlab.collections.documentation]
+section = "documentation/_index.md"
+
+[extra.devlab.collections.features]
+section = "features/_index.md"
+
+[extra.devlab.navigation]
+links = [
+  { name = "Home", path = "/" },
+  { name = "Features", collection = "features" },
+  { name = "Use cases", collection = "examples" },
+  { name = "Docs", collection = "documentation" },
+  { name = "Community", collection = "community" },
+]
+
+[extra.devlab.footer] 
+show = true
+note = "Backend low code in python."
+show_link_names = true
+links_label = "Project links" 
+links = [
+    { name = "Docs", path = "https://backo.readthedocs.io", icon = "external-link" },
+    { name = "Source", path = "https://github.com/backo-stricto/backo", icon = "github" }
+    ]
+
+[[extra.community_members]]
+name = "Bertrand Wallrich"
+nickname = "bwallrich"
+support = { label = "Contribute", path = "https://github.com/bwallrich" }
+role = "Project maintainer"
+bio = "Develops backo and stricto."
+avatar = "/images/people/bitmoji1.png"
+path = "/community/"
+links = [
+  { name = "Project on Codeberg", path = "https://codeberg.org/RiPetitor/devlab-theme", icon = "codeberg" },
+  { name = "Publishing guide", path = "/community/", icon = "link" },
+]
+

@@ -1,0 +1,6 @@
+[submodule "backo/themes/themes/devlab-theme"]
+	path = backo/themes/themes/devlab-theme
+	url = https://codeberg.org/RiPetitor/devlab-theme.git
+[submodule "backo/themes/devlab-theme"]
+	path = backo/themes/devlab-theme
+	url = https://codeberg.org/RiPetitor/devlab-theme.git
