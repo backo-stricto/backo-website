@@ -10,4 +10,12 @@ icon = "arrow-right"
 
 +++
 
-Backo full documentation is available at [readthedocs site](https://backo.readthedocs.io)
+
+{% <devlab.cards> %} 
+{% <devlab.card title="Backo documentation" icon="external-link" tag="External" href="https://backo.readthedocs.io/en/latest/"> %}
+Full Backo documentation on readthedocs.
+{% </devlab.card> %}
+{% <devlab.card title="Stricto documentation" icon="external-link" tag="External" href="https://stricto.readthedocs.io/en/latest/"> %}
+Full Stricto documentation on readthedocs.
+{% </devlab.card> %}
+{% </devlab.cards> %}

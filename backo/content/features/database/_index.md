@@ -1,7 +1,10 @@
 +++
 title = "Databases"
 description = "Database Management and Integration."
-weight = 1
+template = "docs.html"
+page_template = "doc-page.html"
+sort_by = "weight"
+weight = 10
 +++
 
 ## Database-Agnostic Architecture
@@ -96,3 +99,8 @@ Developers can implement custom database connectors by extending `DBHandler` and
 
 This contract uses Python dictionaries to represent objects and string identifiers to identify them, making it possible to integrate new storage technologies without changing Backo's core architecture.
 
+{% <devlab.cards> %} 
+{% <devlab.card title="Backo documentation" icon="external-link" tag="External" href="https://backo.readthedocs.io/en/latest/"> %}
+Full Backo documentation on readthedocs.
+{% </devlab.card> %}
+{% </devlab.cards> %}

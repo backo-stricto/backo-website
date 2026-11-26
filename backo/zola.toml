@@ -25,8 +25,8 @@ dismissible = true
 light_theme = "github-light-high-contrast"
 dark_theme = "github-dark-high-contrast"
 
-[extra.devlab.collections.community]
-section = "community/_index.md"
+[extra.devlab.collections.help]
+section = "help/_index.md"
 
 [extra.devlab.collections.examples]
 section = "examples/_index.md"
@@ -43,7 +43,7 @@ links = [
   { name = "Features", collection = "features" },
   { name = "Use cases", collection = "examples" },
   { name = "Docs", collection = "documentation" },
-  { name = "Community", collection = "community" },
+  { name = "Help", collection = "help" },
 ]
 
 [extra.devlab.footer] 

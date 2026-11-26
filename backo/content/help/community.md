@@ -1,9 +1,7 @@
 +++
 title = "Authors"
 description = "Who we are."
-template = "page.html"
-updated = 2026-10-04
-weight = 1
+weight = 11
 +++
 
 
@@ -15,4 +13,4 @@ weight = 1
 
 {{<devlab.people members={config.extra.community_members} content_lang={lang} heading_level={2} />}}
 
-Use the [contributing guide](@/community/contributing.md) to help us.
+Use the [contributing guide](@/help/_index.md) to help us.
