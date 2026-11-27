@@ -11,7 +11,11 @@ generate_feeds = false
 logo_text = "Backo"
 footer_text = "Backo"
 show_logo_mark = true
-logo_mark_path = ""
+logo_mark_path = "/images/backo1.png"
+
+[extra.devlab.seo]
+og_image = "/images/backo1.png"
+og_image_alt = "Backo"
 
 [extra.devlab.announcement]
 show = true
@@ -53,7 +57,8 @@ show_link_names = true
 links_label = "Project links" 
 links = [
     { name = "Docs", path = "https://backo.readthedocs.io", icon = "external-link" },
-    { name = "Source", path = "https://github.com/backo-stricto/backo", icon = "github" }
+    { name = "Source", path = "https://github.com/backo-stricto/backo", icon = "github" },
+    { name = "Help", path = "@/help/help.md", icon = "email" }
     ]
 
 [[extra.community_members]]
@@ -65,7 +70,19 @@ bio = "Develops backo and stricto."
 avatar = "/images/people/bitmoji1.png"
 path = "/community/"
 links = [
-  { name = "Project on Codeberg", path = "https://codeberg.org/RiPetitor/devlab-theme", icon = "codeberg" },
-  { name = "Publishing guide", path = "/community/", icon = "link" },
+  { name = "Project on GitHub", path = "https://github.com/backo-stricto/backo", icon = "github" },
+  { name = "Publishing guide", path = "@/help/help.md", icon = "link" },
+]
+
+[[extra.community_members]]
+name = "Théo Biasutto--Lervat"
+nickname = "NiziL"
+support = { label = "Contribute", path = "https://github.com/NiziL" }
+role = "Contributor"
+bio = "Develops backo and stricto."
+path = "/community/"
+links = [
+  { name = "Project on GitHub", path = "https://github.com/backo-stricto/backo", icon = "github" },
+  { name = "Publishing guide", path = "@/help/help.md", icon = "link" },
 ]
 

@@ -1,8 +1,10 @@
 +++
 title = "Backo"
-description = "Backo full documentation."
+description = "Full Backo documentation on readthedocs."
 weight = 2
 
+[extra]
+icon = "external-link"
 
 +++
 

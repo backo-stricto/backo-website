@@ -17,11 +17,16 @@ cd book_catalog
 python3 -m venv .venv
 source .venv/bin/activate
 pip install backo
+
 ```
 
 On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1`. The generated YAML storage path may also need adapting on Windows.
 
 Optional database dependencies can be installed with `pip install 'backo[mongo]'` or `pip install 'backo[postgres]'`.
+
+{% <devlab.callout type="warning" title="Using databases"> %}
+Backo doesn't install or start the database itself. You must have the database running somewhere and be accessible.
+{% </devlab.callout> %}
 
 ## Step 1 - Generate the application
 

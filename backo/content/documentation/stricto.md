@@ -1,8 +1,10 @@
 +++
 title = "Stricto"
-description = "Stricto full documentation."
+description = "Full Stricto documentation on readthedocs.()"
 weight = 3
 
+[extra]
+icon = "external-link"
 
 +++
 
@@ -10,6 +12,6 @@ weight = 3
 
 {% <devlab.cards> %} 
 {% <devlab.card title="Documentation" icon="external-link" tag="External" href="https://stricto.readthedocs.io/en/latest/"> %}
-Full Backo documentation on readthedocs.
+Full Stricto documentation on readthedocs.
 {% </devlab.card> %}
 {% </devlab.cards> %}

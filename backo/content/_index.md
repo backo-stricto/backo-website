@@ -50,14 +50,23 @@ type = "content"
 
 
 {% <devlab.tabs sync="local-shell" label="Development server command"> %}
+{% <devlab.tab name="simple" value="simple" selected={true}> %}
+```bash
+pip install backo
+# work with files and Sqlite3
+```
+{% </devlab.tab> %}
 {% <devlab.tab name="mongoDB" value="mongo" selected={true}> %}
 ```bash
-pip install backo[mongo]
+pip install 'backo[mongo]'
+# WARNING : You must have a mongoDB available somewhere
 ```
 {% </devlab.tab> %}
 {% <devlab.tab name="postgres" value="postgres"> %}
 ```bash
-pip install backo[postgres]
+pip install 'backo[postgres]'
+# WARNING : You must have a postgres database available somewhere
+
 ```
 {% </devlab.tab> %}
 {% </devlab.tabs> %}
