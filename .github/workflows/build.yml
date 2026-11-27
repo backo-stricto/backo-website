@@ -34,9 +34,11 @@ jobs:
     steps:
       - name: Install
         uses: actions/checkout@v4
+        
       - name: Install dependencies
-        run: |
-          apt install zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.19.1
 
       - name: build
         run: |
