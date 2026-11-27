@@ -34,11 +34,11 @@ jobs:
     steps:
       - name: Install
         uses: actions/checkout@v4
-        
+
       - name: Install dependencies
         uses: taiki-e/install-action@v2
         with:
-          tool: zola@0.19.1
+          tool: zola@0.23.6
 
       - name: build
         run: |
