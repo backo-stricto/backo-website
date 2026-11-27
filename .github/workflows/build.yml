@@ -26,7 +26,11 @@ jobs:
   # Single deploy job since we're just deploying
   deploy:
 
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
+
+    container:
+      image: debian:13
+
     steps:
       - name: Install
         uses: actions/checkout@v4
