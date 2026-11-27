@@ -7,11 +7,12 @@ layout = "wide"
 
 [[extra.devlab.home.blocks]]
 type = "hero"
-eyebrow = "Backo 0.4.0+"
+eyebrow = "Backo 0.4.2+"
 description = "Opensource backoffice low code in python"
 image = "/images/backo-quickstart-800x400.gif"
 actions = [
-  { label = "Build your first backend", path = "@/documentation/_index.md" },
+  { label = "Features", path = "@/features/_index.md" },
+  { label = "Quickstart", path = "@/documentation/quickstart.md" },
   { label = "Documentation", path = "@/documentation/_index.md" },
 ]
 
