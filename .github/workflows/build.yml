@@ -32,6 +32,9 @@ jobs:
       image: debian:13
 
     steps:
+      - name: Install Git
+        run: apt-get update && apt-get install -y git
+
       - name: Install
         uses: actions/checkout@v4
         with:
