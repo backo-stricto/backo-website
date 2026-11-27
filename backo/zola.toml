@@ -19,8 +19,8 @@ og_image_alt = "Backo"
 
 [extra.devlab.announcement]
 show = true
-key = "0.4.1"
-label = "0.4.1"
+key = "0.4.2"
+label = "0.4.2"
 message = "New backo version available"
 path = "@/documentation/_index.md"
 dismissible = true
